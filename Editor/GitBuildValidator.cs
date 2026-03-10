@@ -15,7 +15,7 @@ namespace NoaTheSoap.GUBV
         
             if (!IsGitUpToDate())
             {
-                // Viser en popup-dialog i Unity
+                // Shows pop up in unity
                 bool proceed = EditorUtility.DisplayDialog(
                     "Git Warning!",
                     $"You have not pulled the latest changes from GitHub (you are {GitCommand.GetBehindCount()} commits behind 'origin/{EditorPrefs.GetString("GitValidator_MainBranch", "main")}'). Do you want to build anyways?",
