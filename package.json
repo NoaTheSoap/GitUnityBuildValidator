@@ -1,0 +1,14 @@
+{
+  "name": "com.noathesoap.gitunitybuildvalidator",
+  "displayName": "Git Unity Build Validator",
+  "version": "1.0.0",
+  "description": "Validates Unity builds based on Git/GitHub branches and commits, and warns the user if the project is behind the specified branch when building.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Noa Mortensen",
+    "email": "noa.sjoset@gmail.com",
+    "url": "https://github.com/dittbrukernavn/gitunitybuildvalidator"
+  },
+  "keywords": ["git", "build", "validator", "unity", "editor"],
+  "dependencies": {}
+}
