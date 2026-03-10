@@ -1,0 +1,10 @@
+{
+    "name": "Noathesoap.Gitunitybuildvalidator1.Editor",
+    "references": [
+      "Noathesoap.Gitunitybuildvalidator1"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}
