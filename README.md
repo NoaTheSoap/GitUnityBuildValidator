@@ -31,7 +31,7 @@ You can configure the validator through its custom Editor window.
 1. In the Unity Editor top menu bar, go to **Tools > GitBuildValidator**.
 2. This will open the Git Validator settings window.
    
-   <!-- 📸 ADD IMAGE HERE: Screenshot of the GitBuildValidator Editor Window -->
+
    ![GitBuildValidator Window](images~/editorWindow.png)
 
 3. **Branch:** Enter the name of the branch you want to validate against (e.g., `main`, `development`). The tool will automatically fetch and warn you if you enter a branch that doesn't exist on the remote.
@@ -43,7 +43,7 @@ Once configured, the tool works automatically when you build your project (**Fil
 - If your local branch is up to date with the remote branch, the build will proceed normally.
 - If your local branch is behind the remote setting, a warning dialog will pop up:
   
-  <!-- 📸 ADD IMAGE HERE: Screenshot of the Warning Popup Dialog during build -->
+
   ![Warning Dialog](images~/gitWarning.png)
   
   - Click **Build** to ignore the warning and build anyway.
